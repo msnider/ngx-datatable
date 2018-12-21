@@ -71,7 +71,6 @@ var DataTableBodyComponent = /** @class */ (function () {
         },
         set: function (val) {
             this._rows = val;
-            console.log('setting rows on body component');
             // this.rowExpansions.clear();
             this.recalcLayout();
         },
