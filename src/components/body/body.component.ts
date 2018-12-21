@@ -146,6 +146,7 @@ export class DataTableBodyComponent implements OnInit, OnDestroy {
 
   @Input() set rows(val: any[]) {
     this._rows = val;
+    console.log('setting rows on body component')
     // this.rowExpansions.clear();
     this.recalcLayout();
   }
